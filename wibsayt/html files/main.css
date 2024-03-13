@@ -10,7 +10,7 @@ html, body{
     width: 100%;
     background-color: rgba(18, 38, 32, 1);
     padding-bottom: 20px;
-    margin-left: 250px;
+    margin-left: 70px;
 }
 
 .tb{
@@ -24,7 +24,7 @@ html, body{
     padding-top: 20px;
     display: inline-block;
     float: left;
-    margin-left: 65px;
+    margin-left: 150px;
    
    
 }
@@ -44,9 +44,13 @@ html, body{
 }
 
 .logo{
-  display: flex;
-  height: 70%;
-  width: 70%
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  height: 150%;
+  width: 100%
+  
 }
 
 .search{
