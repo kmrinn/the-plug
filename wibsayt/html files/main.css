@@ -1,0 +1,81 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    padding-top: 20px;
+    display: flex;
+    height: 7vh;
+    width: 100%;
+    background-color: rgba(18, 38, 32, 1);
+    padding-bottom: 20px;
+    margin-left: 250px;
+}
+
+.tb{
+    display: grid;
+    position: static;
+    height: 100%;
+    background-color: rgba(18, 38, 32, 1);
+}
+
+.menu li {
+    padding-top: 20px;
+    display: inline-block;
+    float: left;
+    margin-left: 65px;
+   
+   
+}
+
+.menu li a{
+    color: rgba(244, 235, 208, 1);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 50px;
+    display: block;
+    height: 100%;
+
+}
+
+.menu li a :hover{
+    color: rgba(182, 141, 64, 1);
+   
+}
+
+.logo{
+  display: flex;
+  height: 70%;
+  width: 70%
+}
+
+.search{
+    height: 40px;
+    width: 40px;
+    background-image: url(../images/icons8-search-90.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cart{
+    height: 40px;
+    width: 40px;
+    background-image: url(../images/icons8-add-basket-90.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.account{
+    height: 40px;
+    width: 40px;
+    background-image: url(../images/icons8-test-account-64.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.showcase{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(244, 235, 208, 1);
+}
